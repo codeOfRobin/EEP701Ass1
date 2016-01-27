@@ -61,9 +61,12 @@ int main()
             
             // std::cout<<difference(initial,allsols[i])<<"\n";
             minDiff = difference(initial,allsols[i]);
+            std::cout<<minDiff<<"\n";
             minSudIndex = i;
         }
+        
     }
+    std::cout<<"dasflijl";
     std::cout<<minSudIndex<<'\n';
     std::cout<<difference(initial,allsols[minSudIndex]);
     return 0;
